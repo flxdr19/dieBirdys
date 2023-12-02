@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taskbar</title>
+  <style>
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video im Hintergrund</title>
+  <style>
+
+    body {
+      margin: 0;
+      overflow: hidden; /* Verhindert horizontales Scrollen */
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Das Video wird proportioniert skaliert, um den gesamten Bildschirm abzudecken */
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1; /* Hintergrund setzen */
+    }
+
+    /* Optional: Fügen Sie weitere Stile für anderen Inhalt hinzu, um ihn über dem Video zu positionieren */
+    .content {
+      position: relative;
+      z-index: 1;
+      color: #ffffff; /* Beispieltextfarbe für den Inhalt über dem Video */
+    }
+
+    body    {
+
+        background-image: url(bomb_red_chuck_angry_birds-scaled.jpg);
+    background-size: cover; /* Hintergrundbild auf die gesamte Seite erstrecken */
+    background-position: center; /* Zentrieren des Hintergrundbilds */
+    /* Optional: Hintergrundfarbe, falls das Bild nicht geladen oder transparent ist */
+    background-color: #f2f2f2;
+
+    margin-top: 20px;
+
+
+    }
+    
+
+    img {
+        margin: 100px;
+        margin-left: 15px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .taskbar {
+      background-color: #1e1e1e;
+      height: 40px;
+      padding: 5px;
+      display: flex;
+      justify-content: flex-start;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .taskbar-item {
+      color: #ffffff;
+      padding: 0 15px;
+      line-height: 30px;
+      cursor: pointer;
+    }
+
+    .taskbar-item:hover {
+      background-color: #333333;
+    }
+  </style>
+</head>
+<body>
+    <div class="box" onclick="redirectToLink()">
+        Klick mich für den Link
+      </div>
+      
+
+    <video autoplay loop muted>
+        <source src="Meme from 2027 _ Opium Bird meme _ Мем из 2027.mp4" type="video/mp4">
+        Dein Browser unterstützt das Video-Tag nicht.
+      </video>
+    
+      <div class="content">
+    
+        <!-- Weitere Inhalte hier -->
+      </div>
+
+
+    <img src="cropped-A0038918_orderMock_28082252-1.jpg" alt="" height="300">
+
+  <div class="taskbar">
+    <div class="taskbar-item"class="box" onclick="redirectToMyWebsite()">Mitglieder</div>
+    <div class="taskbar-item"class="box" onclick="window.location.href='Grundrechte des Birdys Clan.html'">Grundrechte</div>
+    <div class="taskbar-item"class="box" onclick="window.location.href='Secret.html'">Secret<div>
+    <!-- Fügen Sie hier weitere Taskbar-Elemente hinzu -->
+  </div>
+
+  <!-- Der Rest Ihrer Webseite hier -->
+
+  <script>
+    function redirectToMyWebsite() {
+      window.location.href = 'Birdy Mitglieder.html'; // Ersetze dies mit dem Link zu deiner Website
+    }
+
+  </script>
+
+  
+
+</body>
+</html>
